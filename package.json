@@ -1,0 +1,17 @@
+{
+  "name": "@tqlabs/dimledmini-webserver",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "^1.3.5",
+    "vite": "^8.0.0-beta.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "dev": "bun run --bun vite",
+    "build": "vite build",
+    "preview": "bun run --bun vite preview"
+  }
+}
