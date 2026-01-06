@@ -20,7 +20,7 @@ body {
   color: var(--text);
   display: grid;
   grid-template-rows: auto 1fr auto;
-  min-height: 100lvh;
+  min-height: 100dvh;
 }
 
 :is(header, footer) {
